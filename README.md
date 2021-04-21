@@ -7,7 +7,7 @@ A simple utility that allows to find the Minecraft stronghold location based on 
 foo@bar:~$ java -cp "picocli-4.6.1.jar:FindStronghold.jar" FindStronghold [1.0,3.0,270.0] [-1.0,3.0,90.0]
 ```
 #### Console utility 
-```shell
+```console
 foo@bar:~$ chmod 777 ./findstronghold-linux-amd64
 foo@bar:~$ ./findstronghold-linux-amd64 [7.0, 1.0, 315.0] [1.0, 1.0, 45.0]
 ```
