@@ -9,7 +9,7 @@ foo@bar:~$ java -cp "picocli-4.6.1.jar:FindStronghold.jar" FindStronghold [1.0,3
 #### Console utility 
 ```console
 foo@bar:~$ chmod 777 ./findstronghold-linux-amd64
-foo@bar:~$ ./findstronghold-linux-amd64 [7.0, 1.0, 315.0] [1.0, 1.0, 45.0]
+foo@bar:~$ ./findstronghold-linux-amd64 [7.0,1.0,315.0] [1.0,1.0,45.0]
 ```
 ## Math
 <p align="center">
@@ -31,6 +31,9 @@ Plugging in the value into either of the previous equations gives us the x coord
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?x_C&space;=&space;(y_C&space;-&space;y_A)tan(\alpha)&space;&plus;&space;x_A" title="x_C = (y_C - y_A)tan(\alpha) + x_A"/>
 </p>
+## Dependencies used
+* [picocli](https://picocli.info/)
+* [JUnit 5](https://junit.org/junit5)
 
 
 
