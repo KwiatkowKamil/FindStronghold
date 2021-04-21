@@ -7,7 +7,6 @@ A simple utility that allows to find the Minecraft stronghold location based on 
 foo@bar:~$ java -cp "picocli-4.6.1.jar:FindStronghold.jar" FindStronghold [1.0,3.0,270.0] [-1.0,3.0,90.0]
 ```
 #### Console utility 
-##### Usage
 ```shell
 Usage: findstronghold [-hV] FIRST_THROW SECOND_THROW
 Finds the Minecraft stronghold location based on 2 ender eye throws.
