@@ -18,7 +18,6 @@ Finds the Minecraft stronghold location based on 2 ender eye throws.
 ```
 ##### Example
 ```console
-foo@bar:~$ chmod 777 ./findstronghold-linux-amd64
 foo@bar:~$ ./findstronghold-linux-amd64 [7.0,1.0,315.0] [1.0,1.0,45.0]
 ```
 ## Dependencies used
