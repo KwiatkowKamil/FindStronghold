@@ -2,6 +2,6 @@
 
 A simple utility that allows to find the Minecraft stronghold location based on 2 ender eye throws.
 <p align="center">
-<img src="ReadmeResource/diagram.png" width="500">
+<img src="ReadmeResource/diagram.png" width="500"></br>
 <img src="https://latex.codecogs.com/gif.latex?tan(\alpha&space;)&space;=&space;\frac{a}{b}">
 </p>
