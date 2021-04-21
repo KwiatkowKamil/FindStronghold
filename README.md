@@ -1,6 +1,17 @@
 # FindStronghold
 
 A simple utility that allows to find the Minecraft stronghold location based on 2 ender eye throws.
+## Usage
+#### Jar example usage
+```console 
+foo@bar:~$ java -cp "picocli-4.6.1.jar:FindStronghold.jar" FindStronghold [1.0,3.0,270.0] [-1.0,3.0,90.0]
+```
+#### Console utility 
+```shell
+foo@bar:~$ chmod 777 ./findstronghold-linux-amd64
+foo@bar:~$ ./findstronghold-linux-amd64 [7.0, 1.0, 315.0] [1.0, 1.0, 45.0]
+```
+## Math
 <p align="center">
 <img src="ReadmeResource/diagram.png" width="500"></br>
 </p>
@@ -20,4 +31,6 @@ Plugging in the value into either of the previous equations gives us the x coord
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?x_C&space;=&space;(y_C&space;-&space;y_A)tan(\alpha)&space;&plus;&space;x_A" title="x_C = (y_C - y_A)tan(\alpha) + x_A"/>
 </p>
+
+
 
